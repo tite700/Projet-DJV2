@@ -11,19 +11,27 @@ using Cursor = UnityEngine.Cursor;
 
 public class TitleScreen : MonoBehaviour
 {
-   public string menuScene;
+   [SerializeField] private GameObject audioManager;
+   [SerializeField] private string menuScene;
+   
    private TextMeshProUGUI[] _tabText;
    private bool _spacePressed = false;
+   
+   
 
    public void Start()
    {
       _tabText = GetComponentsInChildren<TextMeshProUGUI>();
+
       StartCoroutine(Clignotement());
    }
 
+   
    public void StartGame()
    {
-      SceneManager.LoadScene(menuScene);
+      DontDestroyOnLoad(audioManager);
+      SceneManager.LoadScene(menuScene,LoadSceneMode.Single);
+      
    }
    
    public void QuitGame()
@@ -50,6 +58,7 @@ public class TitleScreen : MonoBehaviour
       if (Input.GetKeyDown("space"))
       {
          _spacePressed = true;
+      
          StartGame();
       }
    }
