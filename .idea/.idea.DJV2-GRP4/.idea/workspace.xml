@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a462157e-6045-4263-94e4-b8dd1e84958c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SettingsScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SettingsScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +127,8 @@
       <workItem from="1676252376715" duration="462000" />
       <workItem from="1676252868737" duration="7668000" />
       <workItem from="1676282696153" duration="219000" />
-      <workItem from="1676283016019" duration="3576000" />
+      <workItem from="1676283016019" duration="5870000" />
+      <workItem from="1676293852687" duration="1176000" />
     </task>
     <task id="LOCAL-00001" summary="Premier commit">
       <created>1674481028799</created>
@@ -261,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676278999899</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Healthbar + Shrinking">
+      <created>1676286815439</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676286815439</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +323,8 @@
     <MESSAGE value="commit 17h40" />
     <MESSAGE value="Regen du projet avec CharacterEditorPackage" />
     <MESSAGE value="Regen apres pull" />
-    <option name="LAST_COMMIT_MESSAGE" value="Regen apres pull" />
+    <MESSAGE value="Healthbar + Shrinking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Healthbar + Shrinking" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -6,16 +6,14 @@ using UnityEngine.UI;
 
 public class HealthBarFade : MonoBehaviour
 {
-    
     [SerializeField] private RectTransform healthBarBackground;
     [SerializeField] private RectTransform healthBarFill;
 
+    [SerializeField] private GameObject character;
+
     private Image fillImage;
     private Image backgroundImage;
-    private bool isDead = false;
     private float shrinkSpeed = 2f;
-    private float _maxHp = 100f;
-    private float _currentHp = 100f;
 
     private void Awake()
     {
@@ -23,50 +21,28 @@ public class HealthBarFade : MonoBehaviour
         backgroundImage = healthBarBackground.GetComponent<Image>();
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        StartCoroutine(PerteHp());
-    }
 
-    IEnumerator PerteHp()
+    public IEnumerator PerteHp(float currentHp, float maxHp)
     {
+        yield return new WaitForSeconds(0.1f);
+
+
+        fillImage.fillAmount = currentHp / maxHp;
         Debug.Log("fill amount " + fillImage.fillAmount);
-        Debug.Log("back amount " + backgroundImage.fillAmount);
 
-        while (!isDead)
+        while (backgroundImage.fillAmount > fillImage.fillAmount)
         {
-            if (_currentHp <= 0)
+            yield return new WaitForSeconds(0.1f);
+            if (Time.deltaTime * shrinkSpeed < 0.07f)
             {
-                _currentHp = 0;
-                isDead = true;
+                backgroundImage.fillAmount -= Time.deltaTime * shrinkSpeed;
             }
-        
-            _currentHp -= 10f ;
-            fillImage.fillAmount = _currentHp / _maxHp;
-            Debug.Log("fill amount " + fillImage.fillAmount);
-            
-            while (backgroundImage.fillAmount > fillImage.fillAmount)
+            else
             {
-                yield return new WaitForSeconds(0.1f);
-                if (Time.deltaTime * shrinkSpeed < 0.07f)
-                {
-                    backgroundImage.fillAmount -= Time.deltaTime * shrinkSpeed;
-                }
-                else
-                {
-                    backgroundImage.fillAmount -= 0.07f;
-                }
-                Debug.Log("back amount " + backgroundImage.fillAmount);
+                backgroundImage.fillAmount -= 0.07f;
             }
 
+            Debug.Log("back amount " + backgroundImage.fillAmount);
         }
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-       
     }
 }

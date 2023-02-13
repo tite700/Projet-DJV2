@@ -13,13 +13,15 @@ public abstract class CharacterControllerBase : MovableObject
     protected bool m_MovementIsLocked;
     protected bool lookingRight;
 
-    [SerializeField] protected int MaxHP;
-    protected int currentHP;
+    public int MaxHP;
+    public int currentHP;
 
     [SerializeField] protected ControlledCollider m_ControlledCollider;
 	[SerializeField] protected AbilityModuleManager m_AbilityManager;
     [SerializeField] protected GameObject m_object;
-
+    [SerializeField] protected GameObject HealthBar;
+    
+    private HealthBarFade healthBarScript;
     void Awake()
     {
         currentHP = MaxHP;
@@ -32,6 +34,8 @@ public abstract class CharacterControllerBase : MovableObject
         {
             m_AbilityManager.InitAllModules(this);
         }
+        
+        healthBarScript = HealthBar.GetComponent<HealthBarFade>();
     }
 
     protected override void FixedUpdate ()
@@ -160,6 +164,7 @@ public abstract class CharacterControllerBase : MovableObject
 
     public void TakeDamage(int damage){
         currentHP -= damage;
+        StartCoroutine(healthBarScript.PerteHp((float)currentHP, (float)MaxHP));
         if (currentHP<=0){
             StartCoroutine(CharacterDies());
         }
