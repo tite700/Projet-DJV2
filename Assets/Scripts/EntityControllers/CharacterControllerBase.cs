@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 //--------------------------------------------------------------------
 //Base class for all entity controllers.
 //Uses a ControlledCollider for movement, and an AbilityModuleManager for movement modules
@@ -12,11 +13,16 @@ public abstract class CharacterControllerBase : MovableObject
     protected bool m_MovementIsLocked;
     protected bool lookingRight;
 
+    [SerializeField] protected int MaxHP;
+    protected int currentHP;
+
     [SerializeField] protected ControlledCollider m_ControlledCollider;
 	[SerializeField] protected AbilityModuleManager m_AbilityManager;
+    [SerializeField] protected GameObject m_object;
 
     void Awake()
     {
+        currentHP = MaxHP;
         if (m_ControlledCollider == null)
         {
             Debug.LogError("Controlled collider not set up");
@@ -150,6 +156,19 @@ public abstract class CharacterControllerBase : MovableObject
         {
             return Vector2.zero;
         }
+    }
+
+    public void TakeDamage(int damage){
+        currentHP -= damage;
+        if (currentHP<=0){
+            StartCoroutine(CharacterDies());
+        }
+    }
+
+    protected IEnumerator CharacterDies(){
+        Destroy(m_object);
+        yield return new WaitForSecondsRealtime(4);
+        SceneManager.LoadScene("MainMenuScene");
     }
 
     public string GetCurrentSpriteState()

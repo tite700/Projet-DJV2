@@ -5,6 +5,8 @@ using UnityEngine;
 public class Projectile : MovableObject
 {
     protected Vector2 velocity  = Vector2.zero;
+
+    [SerializeField] int damage = 10;
     
 
     public override void DefaultUpdateMovement()
@@ -25,6 +27,10 @@ public class Projectile : MovableObject
 
     void OnCollisionEnter(Collision collider)
     {
+        if (collider.collider.TryGetComponent(out CharacterControllerBase character))
+        {
+            character.TakeDamage(damage);
+        }
         Destroy(gameObject);
     }
     
