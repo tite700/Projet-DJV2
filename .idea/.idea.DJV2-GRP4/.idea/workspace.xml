@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a462157e-6045-4263-94e4-b8dd1e84958c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev_bapt" />
+      </map>
+    </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/HealthBarDamageTaken/Scripts/HealthBarShrink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManagerTitle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectId" id="2KjGqA89FwJcTjpvyvvnxgKlJNp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.build.unityPlugin&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\tite7\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\tite7\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\tite7\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Builds\DJV2-GRP4.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\UNITY\DJV2-GRP4\Builds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\UNITY\2021.3.10f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath D:\UNITY\DJV2-GRP4 -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UNITY\DJV2-GRP4" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="D:\UNITY\2021.3.10f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\UNITY\DJV2-GRP4 -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\UNITY\DJV2-GRP4" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a462157e-6045-4263-94e4-b8dd1e84958c" name="Changes" comment="" />
+      <created>1674480776163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674480776163</updated>
+      <workItem from="1674480783030" duration="1275000" />
+      <workItem from="1674482115182" duration="1332000" />
+      <workItem from="1674485588484" duration="6115000" />
+      <workItem from="1675066619591" duration="34000" />
+      <workItem from="1675066782102" duration="6156000" />
+      <workItem from="1675078466621" duration="934000" />
+      <workItem from="1675084620022" duration="6253000" />
+      <workItem from="1675094398978" duration="2792000" />
+      <workItem from="1675690226716" duration="8557000" />
+      <workItem from="1676249240807" duration="168000" />
+      <workItem from="1676251661274" duration="195000" />
+      <workItem from="1676251908415" duration="268000" />
+      <workItem from="1676252376715" duration="462000" />
+      <workItem from="1676252868737" duration="7668000" />
+      <workItem from="1676282696153" duration="219000" />
+      <workItem from="1676283016019" duration="5870000" />
+      <workItem from="1676293852687" duration="1176000" />
+    </task>
+    <task id="LOCAL-00001" summary="Premier commit">
+      <created>1674481028799</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674481028799</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Debut des mouvements">
+      <created>1674497919457</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674497919458</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Parametrage des personnages">
+      <created>1674497965913</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674497965913</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Mini-chgt">
+      <created>1675066951988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675066951988</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update gitignore">
+      <created>1675069988365</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675069988365</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updated gitignore">
+      <created>1675070911554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675070911554</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Character Package">
+      <created>1675074453530</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675074453530</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ajout de TextMeshPro Essentials et fonctionnement du Title Screen">
+      <created>1675089530064</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675089530064</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Commit Baptiste Restart">
+      <created>1675095959116</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675095959116</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Push to test new build">
+      <created>1675690290598</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675690290598</updated>
+    </task>
+    <task id="LOCAL-00011" summary="chgt gitignore">
+      <created>1675696120024</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675696120024</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Tentative de build avec bons build settings">
+      <created>1675699682060</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675699682060</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Je reessaie de fix le cloud build">
+      <created>1675700001159</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675700001159</updated>
+    </task>
+    <task id="LOCAL-00014" summary="conflicts solved&#10;commit before merging">
+      <created>1675700304682</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1675700304682</updated>
+    </task>
+    <task id="LOCAL-00015" summary="essaie d'abort de commit">
+      <created>1675700667720</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1675700667720</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Nouvelle tentative de resolution de conflits">
+      <created>1675701595570</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675701595570</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit 17h40">
+      <created>1675701665272</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675701665272</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Regen du projet avec CharacterEditorPackage">
+      <created>1676278913125</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676278913125</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Regen apres pull">
+      <created>1676278999899</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676278999899</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Healthbar + Shrinking">
+      <created>1676286815439</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676286815439</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev_bapt" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Premier commit" />
+    <MESSAGE value="Debut des mouvements" />
+    <MESSAGE value="Parametrage des personnages" />
+    <MESSAGE value="Mini-chgt" />
+    <MESSAGE value="Update gitignore" />
+    <MESSAGE value="Updated gitignore" />
+    <MESSAGE value="Character Package" />
+    <MESSAGE value="Ajout de TextMeshPro Essentials et fonctionnement du Title Screen" />
+    <MESSAGE value="Commit Baptiste Restart" />
+    <MESSAGE value="Push to test new build" />
+    <MESSAGE value="chgt gitignore" />
+    <MESSAGE value="Tentative de build avec bons build settings" />
+    <MESSAGE value="Je reessaie de fix le cloud build" />
+    <MESSAGE value="conflicts solved&#10;commit before merging" />
+    <MESSAGE value="essaie d'abort de commit" />
+    <MESSAGE value="Nouvelle tentative de resolution de conflits" />
+    <MESSAGE value="commit 17h40" />
+    <MESSAGE value="Regen du projet avec CharacterEditorPackage" />
+    <MESSAGE value="Regen apres pull" />
+    <MESSAGE value="Healthbar + Shrinking" />
+    <option name="LAST_COMMIT_MESSAGE" value="Healthbar + Shrinking" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
