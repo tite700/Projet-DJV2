@@ -111,6 +111,7 @@ public abstract class CharacterControllerBase : MovableObject
         return m_MovementIsLocked;
     }
 
+    /*
     public void SpawnAndResetAtPosition(Vector3 a_Position)
     {
         if (m_AbilityManager != null)
@@ -125,6 +126,7 @@ public abstract class CharacterControllerBase : MovableObject
             m_ControlledCollider.ClearColPoints();
         }
     }
+    */
 
     //Set inputs (by PlayerInput)
     public virtual void SetPlayerInput(PlayerInput a_PlayerInput)
