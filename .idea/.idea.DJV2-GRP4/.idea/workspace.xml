@@ -5,213 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a462157e-6045-4263-94e4-b8dd1e84958c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimatedCollider.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimatedCollider.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/AnimatedColliderDemo.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/AnimatedColliderDemo.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Animations/AnimatedCollider.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Animations/AnimatedCollider.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Animations/AnimatedColliderDemo.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Animations/AnimatedColliderDemo.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Black.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Grey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Jetpack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Jetpack.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Launcher.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Launcher.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/LightGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/LightGrey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/RedTransparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/RedTransparent.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Stairs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Stairs.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Teleporter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Teleporter.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/Water.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/WaterBack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Materials/WaterBack.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Models/HeroCube/HeroCubeAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Models/HeroCube/HeroCubeAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Models/HeroCube/Materials/HeroCube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Models/HeroCube/Materials/HeroCube.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Models/HeroCube/Materials/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Models/HeroCube/Materials/No Name.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/CharacterControllers/ClassicCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/CharacterControllers/ClassicCharacter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/CharacterControllers/DefaultCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/CharacterControllers/DefaultCharacter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/CharacterControllers/HeroCubeCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/CharacterControllers/HeroCubeCharacter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/CurvedSkateline.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/CurvedSkateline.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/CurvedZipline.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/CurvedZipline.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Fingers.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Fingers.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Ladder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Ladder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/MovingTuningFork.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/MovingTuningFork.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Net.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Net.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/OneWayPlatform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/OneWayPlatform.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/PathFollower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/PathFollower.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Skateline.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Skateline.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/SpawnPointSetter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/SpawnPointSetter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/SwayingBlock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/SwayingBlock.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Water.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Water.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/WorldTurnPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/WorldTurnPoint.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Zipline.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/LevelObjects/Zipline.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/AutoRunnerDemoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/AutoRunnerDemoScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/DemoScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/DemoScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/DemoScene2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/DemoScene2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/RunnerSceneDemo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/RunnerSceneDemo.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/ZiplineScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Scenes/ZiplineScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_AirCrouchSideDown.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_AirCrouchSideDown.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_AirCrouchSideUp.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_AirCrouchSideUp.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_AirCrouchStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_AirCrouchStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_BrakeRun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_BrakeRun.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Crouch.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Crouch.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_CrouchIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_CrouchIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Dangling.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Dangling.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_FallSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_FallSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_FallStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_FallStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_FallUpSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_FallUpSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_FallUpStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_FallUpStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_JumpSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_JumpSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_JumpStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_JumpStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_LedgeHang.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_LedgeHang.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_LedgeHangSideReach.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_LedgeHangSideReach.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Slide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Slide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Sprint.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_Sprint.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_WallRun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_WallRun.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_WallSlide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/CharacterSprite_WallSlide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicClimb.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicClimb.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicClimbIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicClimbIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicFallSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicFallSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicFallStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicFallStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicFallUpSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicFallUpSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicFallUpStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicFallUpStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicJumpSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicJumpSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicJumpStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicJumpStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicRun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicRun.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicSprint.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicSprint.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicSpriteAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicSpriteAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicSwim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicSwim.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicSwimIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicSwimIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicWallSlide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/ClassicCharacter/ClassicWallSlide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/SpriteAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Sprites/SpriteAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Black.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Black.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Grey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Grey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Jetpack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Jetpack.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Launcher.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Launcher.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LightGrey.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LightGrey.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Red.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Red.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/RedTransparent.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/RedTransparent.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Stairs.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Stairs.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Teleporter.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Teleporter.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Water.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/WaterBack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/WaterBack.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/HeroCube/HeroCubeAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/HeroCube/HeroCubeAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/HeroCube/Materials/HeroCube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/HeroCube/Materials/HeroCube.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/HeroCube/Materials/No Name.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/HeroCube/Materials/No Name.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicDropDownModule 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicDropDownModule 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicDropDownModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicDropDownModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicGravityUpModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicGravityUpModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicLadderModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicLadderModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicNetModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicNetModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicProjectileModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicProjectileModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicSprintModule 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicSprintModule 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicSwimModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicSwimModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicWallJumpModule 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicWallJumpModule 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicWallSlidingModule 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/ClassicWallSlidingModule 1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/Projectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/ClassicPlayer/Projectile.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultCrouchingModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultCrouchingModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultDashModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultDashModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultDoubleJumpModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultDoubleJumpModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultEdgeClimbModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultEdgeClimbModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultEdgeJumpModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultEdgeJumpModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultLedgeHangModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultLedgeHangModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultSlidingModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultSlidingModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultSprintModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultSprintModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultWallClimbModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultWallClimbModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultWallJumpModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultWallJumpModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultWallRunModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultWallRunModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultWallSlidingModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultWallSlidingModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultZiplineModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/DefaultPlayer/DefaultZiplineModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCDropDownModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCDropDownModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCJetpackModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCJetpackModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCNetModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCNetModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCWallJumpModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCWallJumpModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCWallSlidingModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCWallSlidingModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCWallStickModule.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/AbilityModules/HeroCubePlayer/HCWallStickModule.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CharacterControllers/ClassicCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CharacterControllers/ClassicCharacter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CharacterControllers/DefaultCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CharacterControllers/DefaultCharacter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CharacterControllers/HeroCubeCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/CharacterControllers/HeroCubeCharacter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/CurvedSkateline.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/CurvedSkateline.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/CurvedZipline.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/CurvedZipline.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Fingers.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Fingers.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Ladder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Ladder.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/MovingTuningFork.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/MovingTuningFork.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Net.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Net.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/OneWayPlatform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/OneWayPlatform.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/PathFollower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/PathFollower.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Skateline.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Skateline.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/SpawnPointSetter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/SpawnPointSetter.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/SwayingBlock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/SwayingBlock.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Water.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Water.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/WorldTurnPoint.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/WorldTurnPoint.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Zipline.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/LevelObjects/Zipline.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestArena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestArena.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/WelcomeScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/WelcomeScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TitleScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TitleScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_AirCrouchSideDown.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_AirCrouchSideDown.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_AirCrouchSideUp.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_AirCrouchSideUp.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_AirCrouchStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_AirCrouchStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_BrakeRun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_BrakeRun.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Crouch.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Crouch.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_CrouchIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_CrouchIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Dangling.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Dangling.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_FallSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_FallSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_FallStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_FallStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_FallUpSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_FallUpSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_FallUpStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_FallUpStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_JumpSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_JumpSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_JumpStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_JumpStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_LedgeHang.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_LedgeHang.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_LedgeHangSideReach.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_LedgeHangSideReach.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Slide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Slide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Sprint.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_Sprint.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_WallRun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_WallRun.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_WallSlide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/CharacterSprite_WallSlide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicClimb.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicClimb.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicClimbIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicClimbIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicFallSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicFallSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicFallStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicFallStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicFallUpSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicFallUpSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicFallUpStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicFallUpStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicJumpSide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicJumpSide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicJumpStraight.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicJumpStraight.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicRun.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicRun.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicSprint.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicSprint.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicSpriteAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicSpriteAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicSwim.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicSwim.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicSwimIdle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicSwimIdle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicWallSlide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/ClassicCharacter/ClassicWallSlide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/SpriteAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/SpriteAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SettingsScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SettingsScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,9 +24,9 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/UNITY/DJV2-GRP4/Assets/Animations/AnimatedCollider.controller" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://D:/UNITY/DJV2-GRP4/Assets/CharacterEditorPackage/Animations/AnimatedCollider.controller" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HealthBarDamageTaken/Scripts/HealthBarShrink.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManagerTitle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -328,7 +124,9 @@
       <workItem from="1676251661274" duration="195000" />
       <workItem from="1676251908415" duration="268000" />
       <workItem from="1676252376715" duration="462000" />
-      <workItem from="1676252868737" duration="5515000" />
+      <workItem from="1676252868737" duration="7668000" />
+      <workItem from="1676282696153" duration="219000" />
+      <workItem from="1676283016019" duration="3576000" />
     </task>
     <task id="LOCAL-00001" summary="Premier commit">
       <created>1674481028799</created>
@@ -449,7 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675701665272</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Regen du projet avec CharacterEditorPackage">
+      <created>1676278913125</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676278913125</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Regen apres pull">
+      <created>1676278999899</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676278999899</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +312,9 @@
     <MESSAGE value="essaie d'abort de commit" />
     <MESSAGE value="Nouvelle tentative de resolution de conflits" />
     <MESSAGE value="commit 17h40" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 17h40" />
+    <MESSAGE value="Regen du projet avec CharacterEditorPackage" />
+    <MESSAGE value="Regen apres pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="Regen apres pull" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
