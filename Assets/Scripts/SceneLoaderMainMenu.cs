@@ -11,7 +11,7 @@ using Cursor = UnityEngine.Cursor;
 
 public class SceneLoaderMainMenu : MonoBehaviour
 {
-    public string menuScene;
+    public string settingsScene;
 
     
     // Start is called before the first frame update
@@ -28,6 +28,6 @@ public class SceneLoaderMainMenu : MonoBehaviour
     
     public void TestArena()
     {
-        SceneManager.LoadScene(menuScene);
+        SceneManager.LoadScene(settingsScene, LoadSceneMode.Additive);
     }
 }
