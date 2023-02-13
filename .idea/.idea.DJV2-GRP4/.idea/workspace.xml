@@ -4,12 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a462157e-6045-4263-94e4-b8dd1e84958c" name="Changes" comment="">
+    <list default="true" id="a462157e-6045-4263-94e4-b8dd1e84958c" name="Changes" comment="mini-commit pré-soutenance">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blackhole.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blackhole.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +25,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/HealthBarDamageTaken/Scripts/HealthBarShrink.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/UNITY/DJV2-GRP4/Assets/Scenes/CityArena.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManagerTitle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/UNITY/DJV2-GRP4/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -290,7 +291,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="dev_bapt" />
+                        <option value="origin/PlatformerPackage" />
                       </list>
                     </value>
                   </entry>
@@ -324,7 +325,8 @@
     <MESSAGE value="Regen du projet avec CharacterEditorPackage" />
     <MESSAGE value="Regen apres pull" />
     <MESSAGE value="Healthbar + Shrinking" />
-    <option name="LAST_COMMIT_MESSAGE" value="Healthbar + Shrinking" />
+    <MESSAGE value="mini-commit pré-soutenance" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini-commit pré-soutenance" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
