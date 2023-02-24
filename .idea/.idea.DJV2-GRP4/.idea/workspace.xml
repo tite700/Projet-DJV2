@@ -4,11 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a462157e-6045-4263-94e4-b8dd1e84958c" name="Changes" comment="mini-commit pré-soutenance">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blackhole.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Blackhole.prefab.meta" afterDir="false" />
+    <list default="true" id="a462157e-6045-4263-94e4-b8dd1e84958c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DJV2-GRP4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +28,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/HealthBarDamageTaken/Scripts/HealthBarShrink.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/UNITY/DJV2-GRP4/Assets/Scenes/CityArena.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManagerTitle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://D:/UNITY/DJV2-GRP4/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -130,6 +131,7 @@
       <workItem from="1676282696153" duration="219000" />
       <workItem from="1676283016019" duration="5870000" />
       <workItem from="1676293852687" duration="1176000" />
+      <workItem from="1677241823360" duration="3999000" />
     </task>
     <task id="LOCAL-00001" summary="Premier commit">
       <created>1674481028799</created>
@@ -271,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676286815439</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="mini-commit pré-soutenance">
+      <created>1676299061304</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1676299061304</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
