@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 448756}
   - component: {fileID: 19891202}
   - component: {fileID: 19924802}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: JumpParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4800,7 +4800,7 @@ GameObject:
   - component: {fileID: 405092}
   - component: {fileID: 19852532}
   - component: {fileID: 19923534}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: RunParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9574,7 +9574,7 @@ GameObject:
   - component: {fileID: 11460926}
   - component: {fileID: 11422674}
   - component: {fileID: 11435734}
-  m_Layer: 8
+  m_Layer: 31
   m_Name: ExtraPlayerScripts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9690,7 +9690,7 @@ GameObject:
   - component: {fileID: 422326}
   - component: {fileID: 19892576}
   - component: {fileID: 19983716}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: ImpactParticles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14462,7 +14462,7 @@ GameObject:
   - component: {fileID: 2397874}
   - component: {fileID: 10255842}
   - component: {fileID: 11471040}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: Movement State Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14574,7 +14574,7 @@ GameObject:
   - component: {fileID: 21245342}
   - component: {fileID: 11457034}
   - component: {fileID: 9531344}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: SpriteAnimator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14699,7 +14699,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 437466}
-  m_Layer: 8
+  m_Layer: 31
   m_Name: SpriteTransformBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14777,8 +14777,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mass: 0
+  MaxHP: 0
+  currentHP: 0
   m_ControlledCollider: {fileID: 11436916}
   m_AbilityManager: {fileID: 11459114}
+  m_object: {fileID: 0}
+  HealthBar: {fileID: 0}
   m_WalkForce: 90
   m_WalkForceApplyLimit: 25
   m_StoppingForce: 1000

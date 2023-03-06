@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DropDown : MonoBehaviour
+public class DropDownStage : MonoBehaviour
 {
     
     public List<string> listStage ;

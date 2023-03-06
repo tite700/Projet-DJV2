@@ -114,7 +114,8 @@ QualitySettings:
     asyncUploadBufferSize: 16
     asyncUploadPersistentBuffer: 1
     resolutionScalingFixedDPIFactor: 1
-    customRenderPipeline: {fileID: 0}
+    customRenderPipeline: {fileID: 11400000, guid: 2ac92af33d40ecf47b6486e7a23084a7,
+      type: 2}
     excludedTargetPlatforms: []
   - serializedVersion: 2
     name: Good
@@ -237,6 +238,7 @@ QualitySettings:
     PSM: 5
     PSP2: 2
     Samsung TV: 2
+    Server: 0
     Standalone: 2
     Tizen: 2
     WP8: 5

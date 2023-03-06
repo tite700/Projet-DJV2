@@ -15,15 +15,15 @@ public class SceneLoaderMainMenu : MonoBehaviour
     public string settingsScene;
     public string menuScene;
     
-    private List<string> listStage;
-    private DropDown dropscript;
+    private List<string> _listStage;
+    private DropDownStage dropscript;
     
     [SerializeField] private GameObject dropDownMenu;
     
     private void Awake()
     {
-        dropscript = dropDownMenu.GetComponent<DropDown>();        
-        listStage = dropscript.listStage;
+        dropscript = dropDownMenu.GetComponent<DropDownStage>();
+        //_listStage = dropscript.listStage;
     }
     
     // Start is called before the first frame update
@@ -39,7 +39,7 @@ public class SceneLoaderMainMenu : MonoBehaviour
     
     public void SettingsScene()
     {
-        SceneManager.LoadScene(settingsScene, LoadSceneMode.Additive);
+        SceneManager.LoadScene(settingsScene, LoadSceneMode.Single);
     }
 
     public void Fight()

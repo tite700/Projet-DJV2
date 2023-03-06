@@ -474,7 +474,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 454482627}
-        m_TargetAssemblyTypeName: DropDown, Assembly-CSharp
+        m_TargetAssemblyTypeName: DropDownStage, Assembly-CSharp
         m_MethodName: OnValueChanged
         m_Mode: 0
         m_Arguments:
