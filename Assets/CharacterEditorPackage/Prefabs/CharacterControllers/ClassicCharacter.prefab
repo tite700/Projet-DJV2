@@ -14781,7 +14781,7 @@ MonoBehaviour:
   currentHP: 0
   m_ControlledCollider: {fileID: 11436916}
   m_AbilityManager: {fileID: 11459114}
-  m_object: {fileID: 0}
+  m_object: {fileID: 186690}
   HealthBar: {fileID: 0}
   m_WalkForce: 90
   m_WalkForceApplyLimit: 25

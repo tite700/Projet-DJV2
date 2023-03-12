@@ -28,7 +28,6 @@ public class HealthBarFade : MonoBehaviour
 
 
         fillImage.fillAmount = currentHp / maxHp;
-        Debug.Log("fill amount " + fillImage.fillAmount);
 
         while (backgroundImage.fillAmount > fillImage.fillAmount)
         {
@@ -42,7 +41,6 @@ public class HealthBarFade : MonoBehaviour
                 backgroundImage.fillAmount -= 0.07f;
             }
 
-            Debug.Log("back amount " + backgroundImage.fillAmount);
         }
     }
 }
