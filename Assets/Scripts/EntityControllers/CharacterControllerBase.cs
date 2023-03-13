@@ -15,17 +15,15 @@ public abstract class CharacterControllerBase : MovableObject
 
     public int MaxHP;
     public int currentHP;
-    public bool isDead = false;
 
     [SerializeField] protected ControlledCollider m_ControlledCollider;
 	[SerializeField] protected AbilityModuleManager m_AbilityManager;
     [SerializeField] protected GameObject m_object;
     [SerializeField] protected GameObject HealthBar;
-    [SerializeField] protected GameObject Confetti;
+
+    protected int FrameStunned = 0;
     
     private HealthBarFade healthBarScript;
-    private VictoryScreen victoryScreenScript;
-    
     void Awake()
     {
         currentHP = MaxHP;
@@ -40,11 +38,11 @@ public abstract class CharacterControllerBase : MovableObject
         }
         
         healthBarScript = HealthBar.GetComponent<HealthBarFade>();
-        victoryScreenScript = Confetti.GetComponent<VictoryScreen>();
     }
 
     protected override void FixedUpdate ()
     { 
+        FrameStunned = Mathf.Max(0, FrameStunned -1);
         if (m_ControlledCollider == null)
         {
             return;
@@ -120,6 +118,7 @@ public abstract class CharacterControllerBase : MovableObject
         return m_MovementIsLocked;
     }
 
+    /*
     public void SpawnAndResetAtPosition(Vector3 a_Position)
     {
         if (m_AbilityManager != null)
@@ -134,6 +133,7 @@ public abstract class CharacterControllerBase : MovableObject
             m_ControlledCollider.ClearColPoints();
         }
     }
+    */
 
     //Set inputs (by PlayerInput)
     public virtual void SetPlayerInput(PlayerInput a_PlayerInput)
@@ -167,16 +167,26 @@ public abstract class CharacterControllerBase : MovableObject
         }
     }
 
-    public void TakeDamage(int damage){
+    public int GetStun()
+    {
+        return FrameStunned;
+    }
+
+    public void TakeDamage(int damage, int stun, Vector2 Knockback){
         currentHP -= damage;
+        FrameStunned = stun;
+        m_ControlledCollider.UpdateWithVelocity(Knockback);
         StartCoroutine(healthBarScript.PerteHp((float)currentHP, (float)MaxHP));
         if (currentHP<=0){
-            isDead = true;
-            victoryScreenScript.victory();
+            StartCoroutine(CharacterDies());
         }
     }
 
-
+    protected IEnumerator CharacterDies(){
+        SceneManager.LoadScene("MainMenuScene");
+        yield return new WaitForSecondsRealtime(4);
+        
+    }
 
     public string GetCurrentSpriteState()
     {
