@@ -20,10 +20,13 @@ public abstract class CharacterControllerBase : MovableObject
 	[SerializeField] protected AbilityModuleManager m_AbilityManager;
     [SerializeField] protected GameObject m_object;
     [SerializeField] protected GameObject HealthBar;
+    [SerializeField] protected VictoryScreen victoryScreen;
 
     protected int FrameStunned = 0;
     
     private HealthBarFade healthBarScript;
+    
+    
     void Awake()
     {
         currentHP = MaxHP;
@@ -183,9 +186,9 @@ public abstract class CharacterControllerBase : MovableObject
     }
 
     protected IEnumerator CharacterDies(){
-        SceneManager.LoadScene("MainMenuScene");
-        yield return new WaitForSecondsRealtime(4);
         
+        victoryScreen.victory();
+        yield break;
     }
 
     public string GetCurrentSpriteState()

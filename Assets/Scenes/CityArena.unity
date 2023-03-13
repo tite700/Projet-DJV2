@@ -25211,6 +25211,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1676324109}
     - target: {fileID: 11474806, guid: 006d181c7f39aa7469a46c0b4f98d4d7, type: 3}
+      propertyPath: victoryScreen
+      value: 
+      objectReference: {fileID: 982194514}
+    - target: {fileID: 11474806, guid: 006d181c7f39aa7469a46c0b4f98d4d7, type: 3}
       propertyPath: m_MinAllowedJumpCutVelocity
       value: 5
       objectReference: {fileID: 0}
@@ -41494,6 +41498,10 @@ PrefabInstance:
       propertyPath: HealthBar
       value: 
       objectReference: {fileID: 1532240717}
+    - target: {fileID: 11474806, guid: 006d181c7f39aa7469a46c0b4f98d4d7, type: 3}
+      propertyPath: victoryScreen
+      value: 
+      objectReference: {fileID: 982194514}
     - target: {fileID: 11474806, guid: 006d181c7f39aa7469a46c0b4f98d4d7, type: 3}
       propertyPath: m_MinAllowedJumpCutVelocity
       value: 5

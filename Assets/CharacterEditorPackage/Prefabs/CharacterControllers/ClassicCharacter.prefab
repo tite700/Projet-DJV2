@@ -14844,24 +14844,33 @@ MonoBehaviour:
     m_VerticalAxisName: Vertical
     m_DirectionThreshold: 0
     m_IsFoldingOut: 0
-  - m_Name: ClimbRelease
+  - m_Name: Special
     m_InputType: 0
-    m_UnityInputType: 2
+    m_UnityInputType: 0
     m_UnityAxisRecognition: 1
-    m_ButtonName: Fire1
+    m_ButtonName: Special
     m_HorizontalAxisName: Horizontal
     m_VerticalAxisName: Vertical
     m_DirectionThreshold: 0
     m_IsFoldingOut: 0
-  - m_Name: TeleportEnter
+  - m_Name: Attack
     m_InputType: 0
-    m_UnityInputType: 2
+    m_UnityInputType: 0
     m_UnityAxisRecognition: 1
-    m_ButtonName: Fire1
+    m_ButtonName: Attack
     m_HorizontalAxisName: Horizontal
     m_VerticalAxisName: Vertical
     m_DirectionThreshold: 0
-    m_IsFoldingOut: 1
+    m_IsFoldingOut: 0
+  - m_Name: Dodge
+    m_InputType: 0
+    m_UnityInputType: 0
+    m_UnityAxisRecognition: 1
+    m_ButtonName: Dodge
+    m_HorizontalAxisName: Horizontal
+    m_VerticalAxisName: Vertical
+    m_DirectionThreshold: 0
+    m_IsFoldingOut: 0
 --- !u!114 &11436916
 MonoBehaviour:
   m_ObjectHideFlags: 0
