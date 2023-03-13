@@ -120,7 +120,7 @@ public class GroundedCharacterController : CharacterControllerBase
             return;
         }
         Vector2 currentVel = m_ControlledCollider.GetVelocity();
-        Vector2 fInput = GetDirectedInputMovement() * GetInputForce();
+        Vector2 fInput = FrameStunned > 0 ? Vector2.zero : GetDirectedInputMovement() * GetInputForce();
         lookingRight = (Vector2.Dot(fInput, Vector2.right) != 0) ?  Vector2.Dot(fInput, Vector2.right) > 0 : lookingRight ;
         
         fInput = ClampInputVelocity(fInput, currentVel, GetInputForceApplyLimit());

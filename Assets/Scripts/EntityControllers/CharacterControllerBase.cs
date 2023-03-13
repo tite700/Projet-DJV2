@@ -20,6 +20,8 @@ public abstract class CharacterControllerBase : MovableObject
 	[SerializeField] protected AbilityModuleManager m_AbilityManager;
     [SerializeField] protected GameObject m_object;
     [SerializeField] protected GameObject HealthBar;
+
+    protected int FrameStunned = 0;
     
     private HealthBarFade healthBarScript;
     void Awake()
@@ -40,6 +42,7 @@ public abstract class CharacterControllerBase : MovableObject
 
     protected override void FixedUpdate ()
     { 
+        FrameStunned = Mathf.Max(0, FrameStunned -1);
         if (m_ControlledCollider == null)
         {
             return;
@@ -164,8 +167,15 @@ public abstract class CharacterControllerBase : MovableObject
         }
     }
 
-    public void TakeDamage(int damage){
+    public int GetStun()
+    {
+        return FrameStunned;
+    }
+
+    public void TakeDamage(int damage, int stun, Vector2 Knockback){
         currentHP -= damage;
+        FrameStunned = stun;
+        m_ControlledCollider.UpdateWithVelocity(Knockback);
         StartCoroutine(healthBarScript.PerteHp((float)currentHP, (float)MaxHP));
         if (currentHP<=0){
             StartCoroutine(CharacterDies());
@@ -173,9 +183,9 @@ public abstract class CharacterControllerBase : MovableObject
     }
 
     protected IEnumerator CharacterDies(){
-        Destroy(m_object);
-        yield return new WaitForSecondsRealtime(4);
         SceneManager.LoadScene("MainMenuScene");
+        yield return new WaitForSecondsRealtime(4);
+        
     }
 
     public string GetCurrentSpriteState()

@@ -7,6 +7,8 @@ public class Projectile : MovableObject
     protected Vector2 velocity  = Vector2.zero;
 
     [SerializeField] int damage = 10;
+    [SerializeField] int stun = 3;
+    [SerializeField] Vector2 Knockback;
     
 
     public override void DefaultUpdateMovement()
@@ -29,7 +31,7 @@ public class Projectile : MovableObject
     {
         if (collider.collider.TryGetComponent(out CharacterControllerBase character))
         {
-            character.TakeDamage(damage);
+            character.TakeDamage(damage, stun, Knockback);
         }
         Destroy(gameObject);
     }
