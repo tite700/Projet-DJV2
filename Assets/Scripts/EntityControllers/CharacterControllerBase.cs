@@ -15,13 +15,17 @@ public abstract class CharacterControllerBase : MovableObject
 
     public int MaxHP;
     public int currentHP;
+    public bool isDead = false;
 
     [SerializeField] protected ControlledCollider m_ControlledCollider;
 	[SerializeField] protected AbilityModuleManager m_AbilityManager;
     [SerializeField] protected GameObject m_object;
     [SerializeField] protected GameObject HealthBar;
+    [SerializeField] protected GameObject Confetti;
     
     private HealthBarFade healthBarScript;
+    private VictoryScreen victoryScreenScript;
+    
     void Awake()
     {
         currentHP = MaxHP;
@@ -36,6 +40,7 @@ public abstract class CharacterControllerBase : MovableObject
         }
         
         healthBarScript = HealthBar.GetComponent<HealthBarFade>();
+        victoryScreenScript = Confetti.GetComponent<VictoryScreen>();
     }
 
     protected override void FixedUpdate ()
@@ -166,15 +171,12 @@ public abstract class CharacterControllerBase : MovableObject
         currentHP -= damage;
         StartCoroutine(healthBarScript.PerteHp((float)currentHP, (float)MaxHP));
         if (currentHP<=0){
-            StartCoroutine(CharacterDies());
+            isDead = true;
+            victoryScreenScript.victory();
         }
     }
 
-    protected IEnumerator CharacterDies(){
-        Destroy(m_object);
-        yield return new WaitForSecondsRealtime(4);
-        SceneManager.LoadScene("MainMenuScene");
-    }
+
 
     public string GetCurrentSpriteState()
     {

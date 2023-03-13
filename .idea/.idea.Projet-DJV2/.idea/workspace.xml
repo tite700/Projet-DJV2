@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17ed8eee-c397-458f-a313-4e89a42af944" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/CharacterControllers/ClassicCharacter.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CharacterEditorPackage/Prefabs/CharacterControllers/ClassicCharacter.prefab" afterDir="false" />
+    <list default="true" id="17ed8eee-c397-458f-a313-4e89a42af944" name="Changes" comment="VictoryScreen supposé codé mais bugs destruction perso">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Projet-DJV2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Projet-DJV2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/Electronic Highway Sign.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/Electronic Highway Sign.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KawaseBlur/LitBlur.shadergraph.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KawaseBlur/LitBlur.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KawaseBlur/MaskedLitBlur.shadergraph.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KawaseBlur/MaskedLitBlur.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KawaseBlur/MaskedUnlitBlur.shadergraph.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KawaseBlur/MaskedUnlitBlur.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/KawaseBlur/UnlitBlur.shadergraph.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/KawaseBlur/UnlitBlur.shadergraph.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Jetpack.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Jetpack.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CityArena.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EntityControllers/CharacterControllerBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthBarFade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/URP/URPAsset_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/URPAsset_Renderer.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoaderMainMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TitleScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TitleScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VictoryScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VictoryScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/URP/BlackHole.vfx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/URP/BlackHole.vfx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +40,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Unity/Projet-DJV2/Assets/Scenes/CityArena.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Unity/Projet-DJV2/Assets/Scenes/CityArena.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MusicDropDown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VictoryScreen.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@12.1.7/Runtime/Common/DynamicResolutionHandler.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -103,8 +120,16 @@
       <workItem from="1677513120269" duration="606000" />
       <workItem from="1678049931575" duration="593000" />
       <workItem from="1678114265478" duration="983000" />
-      <workItem from="1678613548098" duration="3137000" />
+      <workItem from="1678613548098" duration="10043000" />
     </task>
+    <task id="LOCAL-00001" summary="VictoryScreen supposé codé mais bugs destruction perso">
+      <created>1678662998882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678662998882</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,5 +140,7 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="VictoryScreen supposé codé mais bugs destruction perso" />
+    <option name="LAST_COMMIT_MESSAGE" value="VictoryScreen supposé codé mais bugs destruction perso" />
   </component>
 </project>

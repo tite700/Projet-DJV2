@@ -17,12 +17,22 @@ public class SceneLoaderMainMenu : MonoBehaviour
     
     private List<string> _listStage;
     private DropDownStage dropscript;
+    private MusicDropDown musicScript;
+    private GameObject _audioManager;
     
     [SerializeField] private GameObject dropDownMenu;
+    [SerializeField] private GameObject musicDropDown;
+    [SerializeField] private AudioClip music1;
+    [SerializeField] private AudioClip music2;
     
     private void Awake()
     {
         dropscript = dropDownMenu.GetComponent<DropDownStage>();
+        musicScript = musicDropDown.GetComponent<MusicDropDown>();
+        
+        //find the Audio Manager in the OnDestroyOnLoad
+        _audioManager = GameObject.Find("AudioManager");
+        
         //_listStage = dropscript.listStage;
     }
     
@@ -42,11 +52,33 @@ public class SceneLoaderMainMenu : MonoBehaviour
         SceneManager.LoadScene(settingsScene, LoadSceneMode.Single);
     }
 
+    public void TitleScreenScene()
+    {
+        SceneManager.LoadScene("WelcomeScene", LoadSceneMode.Single);
+    }
+    
     public void Fight()
     {
         if (!dropscript.StageChoisi.IsUnityNull())
         {
             SceneManager.LoadScene(dropscript.StageChoisi, LoadSceneMode.Single);
+        }
+        
+        if (!musicScript.musiqueChoisie.IsUnityNull())
+        {
+            if (musicScript.musiqueChoisie == "Drowning")
+            {
+                _audioManager.GetComponent<AudioSource>().clip = music1;
+                music1.LoadAudioData();
+                _audioManager.GetComponent<AudioSource>().Play();
+                
+            }
+            else if (musicScript.musiqueChoisie == "Burnout")
+            {
+                _audioManager.GetComponent<AudioSource>().clip = music2; 
+                music2.LoadAudioData();
+                _audioManager.GetComponent<AudioSource>().Play();
+            }
         }
         
     }

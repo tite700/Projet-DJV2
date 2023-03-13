@@ -29,7 +29,13 @@ public class TitleScreen : MonoBehaviour
    
    public void StartGame()
    {
+      //if there is more than one game object with the name "AudioManager" in the scene, destroy the one that is not the one in the DontDestroyOnLoad
+      if (GameObject.FindGameObjectsWithTag("AudioManager").Length > 1)
+      {
+         Destroy(GameObject.FindGameObjectsWithTag("AudioManager")[1]);
+      }
       DontDestroyOnLoad(audioManager);
+
       SceneManager.LoadScene(menuScene,LoadSceneMode.Single);
       
    }
@@ -55,6 +61,11 @@ public class TitleScreen : MonoBehaviour
    public void Update()
    {
 
+      if (audioManager.GetComponent<AudioSource>().isPlaying == false)
+      {
+         audioManager.GetComponent<AudioSource>().Play();
+      }
+      
       if (Input.GetKeyDown("space"))
       {
          _spacePressed = true;

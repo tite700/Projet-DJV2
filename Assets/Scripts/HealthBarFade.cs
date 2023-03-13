@@ -43,4 +43,13 @@ public class HealthBarFade : MonoBehaviour
 
         }
     }
+    
+    public void Update()
+    {
+        if (character.GetComponent<GroundedCharacterController>().currentHP <= 0)
+        {
+            fillImage.fillAmount = 0;
+            backgroundImage.fillAmount = 0;
+        }
+    }
 }
